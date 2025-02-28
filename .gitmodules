@@ -1,0 +1,6 @@
+[submodule "web-client-2025-1"]
+	path = web-client-2025-1
+	url = https://github.com/manolito-fatec/web-client-2025-1.git
+[submodule "web-server-2025-1"]
+	path = web-server-2025-1
+	url = https://github.com/manolito-fatec/web-server-2025-1.git
