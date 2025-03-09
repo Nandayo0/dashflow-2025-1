@@ -5,9 +5,9 @@
 <br>
 
 ## 📌 Tópicos
-- [👥 Membros](https://github.com/manolito-fatec/geo-iot-2024-1?tab=readme-ov-file#-team-members)
-- [📋 Requisitos](https://github.com/manolito-fatec/geo-iot-2024-1?tab=readme-ov-file#-requisitos)
-- [📈 Product Backlog](https://github.com/manolito-fatec/geo-iot-2024-1?tab=readme-ov-file#-product-backlog)
+- [👥 Membros](https://github.com/manolito-fatec/dashflow-2025-1?tab=readme-ov-file#-team-members)
+- [📋 Requisitos](https://github.com/manolito-fatec/dashflow-2025-1?tab=readme-ov-file#-requisitos)
+- [📈 Product Backlog](https://github.com/manolito-fatec/dashflow-2025-1?tab=readme-ov-file#-product-backlog)
 
 ---
 <br>
@@ -26,7 +26,9 @@
 ---
 <br>
 
-## 📌 Requisitos Funcionais
+# 📋 Requisitos
+
+### 📌 Requisitos Funcionais
 | **ID** | **Persona** | **Descrição** |
 | :-------------: | :-------------: | ------------- |
 |R1|Operador|Visualizar informações por meio dos indicadores e das quantidades de cards atribuídos. |
@@ -59,7 +61,7 @@
 ---
 <br>
 
-## 📝 Requisitos Não Funcionais
+### 📝 Requisitos Não Funcionais
 
 | **ID** | **Descrição** |
 | :-------------: | ------------- |
@@ -74,7 +76,7 @@
 ---
 <br>
 
-## 📈 Product Backlog
+# 📈 Product Backlog
 
 | 🏅 Rank| 🔥 Prioridade| 📝 User Story| 🚀 Sprint| 🎯 Requisito do Parceiro|🚨 Estimativa
 | :--------: | :--------: | -------- | :--------: | :--------: | :--------: |
