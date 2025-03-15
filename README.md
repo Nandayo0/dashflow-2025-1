@@ -29,34 +29,34 @@
 # 📋 Requisitos
 
 ### 📌 Requisitos Funcionais
-| **ID** | **Persona** | **Descrição** |
-| :-------------: | :-------------: | ------------- |
-|R1|Operador|Visualizar informações por meio dos indicadores e das quantidades de cards atribuídos. |
-|R2|Operador|Visualizar informações com os indicadores e cards elaborados para determinados períodos.|
-|R3|Operador|Visualizar informações por meio dos indicadores e dos cards finalizados em um determinado período. |
-|R4|Operador|Visualizar informações por meio dos indicadores, conforme o status da tarefa (coluna do Kanban). |
-|R5|Operador|Visualizar informações por meio dos indicadores, incluindo o tempo médio de execução de um card.|
-|R6|Operador|Visualizar informações com os indicadores, quantidade de projetos que ele participa|
-|R7|Gestor|Visualizar informações com os indicadores, quantidade de cards atribuídos.|
-|R8|Gestor|Visualizar informações com os indicadores, cards por colaborador.|
-|R9|Gestor|Visualizar informações com os indicadores, quantidade de cards criados por um período.|
-|R10|Gestor|Visualizar informações com os indicadores, quantidade de cards finalizados em um período.|
-|R11|Gestor|Visualizar informações com os indicadores, por status das tarefas(Coluna do Kanban).|
-|R12|Gestor|Visualizar informações por meio de indicadores, destacando o tempo médio que os operadores levam para finalizar um card.|
-|R13|Gestor|Visualizar informações com os indicadores, cards que foram feitos retrabalhos.|
-|R14|Gestor|Visualizar informações com os indicadores, quantidade de issue por projetos.|
-|R15|Gestor|Visualizar informações com os indicadores, quantidade de cards por tags.|
-|R16|Admin|Visualizar informações com os indicadores, quantidade de cards criados por um período de tempo.|
-|R17|Admin|Visualizar informações com os indicadores, quantidade de cards  finalizados em um período.|
-|R18|Admin|Visualizar informações com os indicadores, quantidade de projetos.|
-|R19|Admin|Visualizar informações com os indicadores, quantidade de issues.|
-|R20|Admin|Visualizar informações com os indicadores, a quantidade de cards de todos os projetos.|
-|R21|Admin|Visualizar informações como os indicadores, quem é o gestor do projeto.|
-|R22|Operador|O operador deverá ser designado para a função ROLE_USER, assegurando que tenha acesso e permissões adequadas dentro do sistema para visualizar informações que lhe são exclusivamente pertinentes.|
-|R23|Gestor|O gestor deverá ser designado à função ROLE_MANAGER, garantindo que tenha acesso e permissões adequadas no sistema para visualizar informações pertinentes ao projeto sob sua responsabilidade e a seus próprios dados.|
-|R24|Admin|O Administrador terá a função ROLE_ADMIN, o que lhe permitirá acessar informações relacionadas a todos os projetos.|
-|R25|Admin| Criar uma api para integração com outro sistema(trello,Jira).|
-|R26|Admin,Gestor,Operador| A persona deverá ser capaz de exportar dados do Dashboard para um arquivo CSV.|
+| **ID** | **Persona** | **Título** | **Descrição** |
+| :-------------: | :-------------: | ------------- |------------- |
+|R1|Operador|Visualização de indicadores e quantidades de cards por Operador|O sistema deve permitir a visualização das quantidades de cards atribuídos a cada operador, por meio de um gráfico que facilite a interpretação e análise dos dados. |
+|R2|Operador|Visualização de indicadores e cards criados  por período|O sistema deve permitir a visualização dos cards elaborados, organizados por períodos específicos (diário, semanal, mensal, etc.), para facilitar a análise e o acompanhamento do desempenho e da produtividade.|
+|R3|Operador|Visualização de indicadores e cards finalizados por período|O sistema deve permitir a visualização dos cards finalizados, organizados por um período específico (diário, semanal, mensal, etc.), para facilitar a análise do desempenho e da conclusão de atividades. |
+|R4|Operador|Visualização de indicadores por status da tarefa|O sistema deve permitir a visualização dos cards  organizados conforme o status da tarefa (coluna do Kanban ou Sprint), para facilitar o acompanhamento do fluxo de trabalho e a identificação de gargalos. |
+|R5|Operador|Visualização de indicadores com tempo Médio de Execução de um Card.|O sistema deve permitir a visualização do tempo médio de execução de um card, para facilitar a análise de eficiência e produtividade no fluxo de trabalho.|
+|R6|Operador|Visualização de indicadores, quantidade de projetos por participante|O sistema deve permitir a visualização da quantidade de projetos em que cada operador está envolvido, para facilitar a análise de carga de trabalho e distribuição de atividades.|
+|R7|Gestor|visualizar informações com os indicadores, quantidade de cards atribuídos.|O sistema deve permitir a visualização da quantidade de cards atribuídos ao gestor da equipe, para facilitar a análise de distribuição de tarefas e carga de trabalho.|
+|R8|Gestor|Visualizar informações com os indicadores, cards por colaborador.|O sistema deve permitir a visualização da quantidade de cards atribuídos a cada colaborador, para facilitar a análise de produtividade, carga de trabalho e distribuição de tarefas.|
+|R9|Gestor|Visualizar informações com os indicadores, quantidade de cards criados por um período de todos os projetos que o gestor participa.|O sistema deve permitir a visualização da quantidade de cards criados em um período específico (diário, semanal, mensal, etc.), para facilitar a análise de produtividade e volume de atividades.|
+|R10|Gestor|Visualizar informações com os indicadores, quantidade de cards finalizados em um período.|O sistema deve permitir a visualização da quantidade de cards finalizados em um período específico (diário, semanal, mensal, etc.), para facilitar a análise de produtividade e conclusão de atividades.|
+|R11|Gestor|Visualizar informações com os indicadores, por status das tarefas(Coluna do Kanban).|O sistema deve permitir a visualização das informações relacionadas aos cards de todos os projetos que o gestor participa, organizados conforme o status das tarefas (coluna do Kanban, ou Sprint), para facilitar o acompanhamento do fluxo de trabalho e a identificação de gargalos.|
+|R12|Gestor|Visualizar informações por meio de indicadores, destacando o tempo médio que os operadores levam para finalizar um card.|O sistema deve permitir a visualização das informações relacionadas aos indicadores, destacando o tempo médio que os operadores levam para finalizar um card, com o objetivo de analisar a eficiência e produtividade individual.|
+|R13|Gestor|Visualizar informações com os indicadores, cards que foram feitos retrabalho.|O sistema deve permitir a visualização dos cards que passaram por retrabalho, com o objetivo de analisar a eficiência do processo e identificar possíveis melhorias.
+|R14|Gestor|Visualizar informações com os indicadores, quantidade de issue por projetos.|O sistema deve permitir a visualização da quantidade de issues (problemas, tarefas ou solicitações) por projeto, para facilitar a análise de volume de trabalho, priorização e alocação de recursos.|
+|R15|Gestor|Visualizar informações com os indicadores, quantidade de cards por tags.|O sistema deve permitir a visualização da quantidade de cards associados a cada tag (etiqueta), para facilitar a análise de categorização, priorização e distribuição de tarefas.|
+|R16|Admin|Visualizar informações com os indicadores, quantidade de cards criados por um período de tempo.|O sistema deve permitir a visualização da quantidade de cards criados em um período de tempo específico (diário, semanal, mensal, etc.) de todos os projetos, para facilitar a análise de volume de atividades, produtividade e tendências ao longo do tempo.|
+|R17|Admin|Visualizar informações com os indicadores, quantidade de cards finalizados em um período.|O sistema deve permitir a visualização da quantidade de cards finalizados em um período de tempo específico (diário, semanal, mensal, etc.) de todos os projetos, para facilitar a análise de volume de atividades, produtividade e tendências ao longo do tempo.|
+|R18|Admin|Visualizar informações com os indicadores, quantidade de projetos.|O sistema deve permitir a visualização da quantidade de projetos, para facilitar a análise de volume de trabalho, alocação de recursos e planejamento estratégico.|
+|R19|Admin|Visualizar informações com os indicadores, quantidade de issues.|O sistema deve permitir a visualização da quantidade de issues por projetos, para análise de volume de trabalho, priorização e alocação de recursos.|
+|R20|Admin|Visualizar informações com os indicadores, a quantidade de cards de todos os projetos.|O sistema deve permitir a visualização da quantidade de cards em todos os projetos, para facilitar a análise de volume de trabalho, distribuição de tarefas e alocação de recursos.|
+|R21|Admin|Visualizar informações como os indicadores, quem é o gestor do projeto.|O sistema deve permitir a visualização do gestor responsável por cada projeto, para facilitar a análise de responsabilidades, comunicação e tomada de decisões.|
+|R22|Operador|O operador deverá ser designado para a função ROLE_USER para o login da aplicação|O sistema deve garantir que o operador seja designado para a função ROLE_USER, assegurando que ele tenha acesso e permissões adequadas para visualizar e interagir apenas com as informações que são exclusivamente suas.|
+|R23|Gestor|O gestor deverá ser designado à função ROLE_MANAGER para o login da aplicação|O sistema deve garantir que o gestor seja designado para a função ROLE_MANAGER, assegurando que ele tenha acesso e permissões adequadas para visualizar e gerenciar informações pertinentes aos projetos sob sua responsabilidade, bem como seus próprios dados, e cards dos operadores.|
+|R24|Admin|O Administrador terá a função ROLE_ADMIN para o login da aplicação|O sistema deve garantir que o administrador seja designado para a função ROLE_ADMIN, permitindo-lhe acessar e gerenciar informações relacionadas a todos os projetos, usuários e configurações do sistema.|
+|R25|Admin| Criar uma api para integração com outro sistema(trello, Jira).|O sistema deve disponibilizar uma API (Application Programming Interface) para integração com sistemas externos, como Trello e Jira, permitindo a sincronização de dados, como cards, projetos, tarefas e indicadores, entre as plataformas.|
+|R26|Admin, Gestor, Operador| A persona deverá ser capaz de exportar dados do Dashboard para um arquivo CSV.|O sistema deve permitir que a persona exporte os dados exibidos no Dashboard para um arquivo CSV, facilitando a análise externa, a geração de relatórios e o compartilhamento de informações.|
 
 ---
 <br>
@@ -95,3 +95,4 @@
 |13|Baixa|Eu, como admin, desejo integrar novas ferramentas ao sistema, permitindo a ampliação das funcionalidades e a interoperabilidade com diferentes plataformas, a fim de melhorar a eficiência e a experiência dos usuários.|3|R25|A determinar|
 |14|Baixa|Eu, como operador, gestor ou admin, quero realizar a exportação dos dados do Dashboard para um arquivo CSV, para que eu possa analisar, compartilhar ou arquivar os dados de forma prática e organizada, fora da plataforma.|3|R26|A determinar|
 ---
+<br>
